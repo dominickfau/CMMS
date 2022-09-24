@@ -1,0 +1,38 @@
+{
+    "name": "Adjustable Battery Cable Crimper",
+    "regimen": "Date",
+    "activities": [
+      {
+        "name": "Check crimp dies for damage and wear.",
+        "priority": "High",
+        "work_type": "Predictive",
+        "duration_minutes": 2,
+        "date_regimen": "week(s)",
+        "date_frequency": 1,
+        "controlled_by_condition": true
+      },
+      {
+        "name": "Check for smooth operation.",
+        "priority": "High",
+        "work_type": "Predictive",
+        "duration_minutes": 2,
+        "date_regimen": "week(s)",
+        "date_frequency": 1,
+        "controlled_by_condition": true
+      },
+      {
+        "name": "Clean and grease crimp dies.",
+        "priority": "High",
+        "duration_minutes": 5,
+        "date_regimen": "month(s)",
+        "date_frequency": 1
+      },
+      {
+        "name": "Clean and duse out machine.",
+        "priority": "Medium",
+        "duration_minutes": 10,
+        "date_regimen": "month(s)",
+        "date_frequency": 1
+      }
+    ]
+  }

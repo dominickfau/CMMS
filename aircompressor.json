@@ -1,0 +1,101 @@
+{
+    "name": "Air Compressor",
+    "regimen": "Mixed",
+    "children": [
+        {
+            "name": "Water Oil Seperator",
+            "regimen": "Mixed",
+            "activities": [
+              {
+                "name": "Check for excessive oil buildup.",
+                "priority": "Medium",
+                "work_type": "Predictive",
+                "duration_minutes": 5,
+                "date_regimen": "month(s)",
+                "date_frequency": 3,
+                "meter_unit_name": "Hours",
+                "meter_frequency": 1000,
+                "controlled_by_condition": true
+              },
+              {
+                "name": "Check for proper drainage of condensate drains.",
+                "priority": "High",
+                "work_type": "Predictive",
+                "duration_minutes": 5,
+                "date_regimen": "month(s)",
+                "date_frequency": 3,
+                "meter_unit_name": "Hours",
+                "meter_frequency": 1000,
+                "controlled_by_condition": true
+              },
+              {
+                "name": "Empty water waste barrel.",
+                "priority": "Medium",
+                "duration_minutes": 10,
+                "date_regimen": "month(s)",
+                "date_frequency": 6,
+                "meter_unit_name": "Hours",
+                "meter_frequency": 4000
+              }
+            ]
+          }
+    ],
+    "activities": [
+      {
+        "name": "Check oil fill level. Refill if needed.",
+        "priority": "High",
+        "duration_minutes": 2,
+        "date_regimen": "week(s)",
+        "date_frequency": 1,
+        "meter_unit_name": "Hours",
+        "meter_frequency": 40
+      },
+      {
+        "name": "Check oil separator pressure drop.",
+        "priority": "High",
+        "work_type": "Predictive",
+        "duration_minutes": 5,
+        "meter_unit_name": "Hours",
+        "meter_frequency": 1000,
+        "controlled_by_measurement": true,
+        "maximum_measurement": 7.50,
+        "measurement_unit": "PSI"
+      },
+      {
+        "name": "Check air filter.",
+        "priority": "High",
+        "work_type": "Predictive",
+        "duration_minutes": 2,
+        "meter_unit_name": "Hours",
+        "meter_frequency": 1000,
+        "controlled_by_condition": true
+      },
+      {
+        "name": "Check oil filter pressure drop indicator.",
+        "priority": "High",
+        "work_type": "Predictive",
+        "duration_minutes": 2,
+        "meter_unit_name": "Hours",
+        "meter_frequency": 1000,
+        "controlled_by_condition": true
+      },
+      {
+        "name": "Check overall running condition.",
+        "priority": "High",
+        "work_type": "Predictive",
+        "duration_minutes": 2,
+        "meter_unit_name": "Hours",
+        "meter_frequency": 40,
+        "controlled_by_condition": true
+      },
+      {
+        "name": "Grease motor bearings.",
+        "priority": "High",
+        "duration_minutes": 5,
+        "date_regimen": "month(s)",
+        "date_frequency": 6,
+        "meter_unit_name": "Hours",
+        "meter_frequency": 4000
+      }
+    ]
+  }

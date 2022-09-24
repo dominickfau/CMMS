@@ -1,0 +1,494 @@
+{
+    "Users": [
+        {
+            "first_name": "Dominick",
+            "last_name": "Faurote",
+            "username": "dfaurote",
+            "password": "Redpurple23"
+        }
+    ],
+    "Locations": [
+        {
+            "Name": "QES, LLC",
+            "Parent Location": "Root"
+        },
+        {
+            "Name": "Rolling",
+            "Parent Location": "QES, LLC"
+        },
+        {
+            "Name": "Splice",
+            "Parent Location": "QES, LLC"
+        },
+        {
+            "Name": "Termination",
+            "Parent Location": "QES, LLC"
+        },
+        {
+            "Name": "Trolling",
+            "Parent Location": "QES, LLC"
+        },
+        {
+            "Name": "Warehouse",
+            "Parent Location": "QES, LLC"
+        },
+        {
+            "Name": "Wire Cutting",
+            "Parent Location": "QES, LLC"
+        }
+    ],
+    "Equipment Classifications 1": [
+        "Production",
+        "Building"
+    ],
+    "Equipment Types": [
+        {
+            "Name": "Applicator",
+            "Failures": [
+                "Alignment",
+                "Chipping",
+                "Galling",
+                "Lubrication",
+                "Mechanical",
+                "Misalignment"
+            ]
+        },
+        {
+            "Name": "Applicator Press",
+            "Failures": [
+                "Air Leaks",
+                "Alignment",
+                "Bearing Failure",
+                "Belts and Pulleys Alignment",
+                "Belts Warn Out",
+                "Electrical",
+                "Improperly Greased Motor Bearings",
+                "Loose Connections",
+                "Lubrication",
+                "Mechanical",
+                "Misalignment",
+                "Overheating",
+                "Overloading",
+                "Shaft Seizure or Break",
+                "Slow Speed",
+                "Vibrations"
+            ]
+        },
+        {
+            "Name": "Compressed Air Drier",
+            "Failures": [
+                "Air Leaks",
+                "Clogged Filters",
+                "Cloggeed Drains",
+                "Cooling Issues",
+                "Dirty Air/Oil Separator",
+                "Dirty Condenser Coils",
+                "Electrical",
+                "Exceeded Pressure Limits",
+                "Fan Problems",
+                "Frozen Evaporator Coils",
+                "Hose",
+                "Lack of Cleanliness",
+                "Loose Connections",
+                "Low Refrigerant",
+                "Misalignment",
+                "Overheating",
+                "Overloading",
+                "Strainer Dirty"
+            ]
+        },
+        {
+            "Name": "Wire Bundler",
+            "Failures": [
+                "Air Leaks",
+                "Bearing Failure",
+                "Belts and Pulleys Alignment",
+                "Belts Warn Out",
+                "Broken, Chipped, or Worn gear teeth in the gearbox",
+                "Clogged Filters",
+                "Cylinders",
+                "Dirty Air/Oil Separator",
+                "Electrical",
+                "Exceeded Pressure Limits",
+                "Lubrication",
+                "Mechanical",
+                "Overheating",
+                "Pressure Regulator",
+                "Seal Failure",
+                "Shaft Seizure or Break",
+                "Slow Speed",
+                "Vibrations"
+            ]
+        },
+        {
+            "Name": "Wire Cutter",
+            "Failures": [
+                "Air Leaks",
+                "Alignment",
+                "Axis Alignaments",
+                "Bearing Failure",
+                "Belts and Pulleys Alignment",
+                "Belts Warn Out",
+                "Clogged Filters",
+                "Dirty Air/Oil Separator",
+                "Electrical",
+                "Loose Connections",
+                "Overheating"
+            ]
+        }
+    ],
+    "Equipment": [
+        {
+            "Name": "10/12 Amphenol",
+            "Brand": "KM USA",
+            "Model": "AT60-12-0122",
+            "Serial Number": "1172A-23011",
+            "Priority": "Medium",
+            "Type": "Applicator",
+            "Year": 2017,
+            "Location": "Termination",
+            "Classification 1": "Production"
+        },
+        {
+            "Name": "10/12 Amphenol",
+            "Brand": "KM USA",
+            "Model": "AT60-12-0122",
+            "Serial Number": "1222A-29587",
+            "Priority": "Medium",
+            "Type": "Applicator",
+            "Year": 2017,
+            "Location": "Termination",
+            "Classification 1": "Production"
+        },
+        {
+            "Name": "10/12 Amphenol",
+            "Brand": "KM USA",
+            "Model": "AT60-12-0122",
+            "Serial Number": "1222A-30180",
+            "Priority": "Medium",
+            "Type": "Applicator",
+            "Year": 2017,
+            "Location": "Termination",
+            "Classification 1": "Production"
+        },
+        {
+            "Name": "10/12 MNL1",
+            "Brand": "AMP",
+            "Model": "466597-3-P",
+            "Serial Number": "444786",
+            "Priority": "Medium",
+            "Type": "Applicator",
+            "Year": 2017,
+            "Location": "Termination",
+            "Classification 1": "Production"
+        },
+        {
+            "Name": "10/12 MNL2",
+            "Brand": "KM USA",
+            "Model": "350922-3",
+            "Serial Number": "1222A-30181",
+            "Priority": "Medium",
+            "Type": "Applicator",
+            "Year": 2017,
+            "Location": "Termination",
+            "Classification 1": "Production"
+        },
+        {
+            "Name": "10/16 Fuse Term",
+            "Brand": "Applitek",
+            "Model": "12033997",
+            "Serial Number": "2175568",
+            "Priority": "Medium",
+            "Type": "Applicator",
+            "Year": 2017,
+            "Location": "Termination",
+            "Classification 1": "Production"
+        },
+        {
+            "Name": "12/16 Switch Back",
+            "Brand": "KM USA",
+            "Model": "60253",
+            "Serial Number": "1172A-21248",
+            "Priority": "Medium",
+            "Type": "Applicator",
+            "Year": 2017,
+            "Location": "Termination",
+            "Classification 1": "Production"
+        },
+        {
+            "Name": "14/16 QD, Ring",
+            "Brand": "KM USA",
+            "Model": "LF-SMPAN",
+            "Serial Number": "1212A-28733",
+            "Priority": "Medium",
+            "Type": "Applicator",
+            "Year": 2017,
+            "Location": "Termination",
+            "Classification 1": "Production"
+        },
+        {
+            "Name": "14/16 QD, Ring",
+            "Brand": "KM USA",
+            "Model": "LF-SMPAN",
+            "Serial Number": "1222A-30589",
+            "Priority": "Medium",
+            "Type": "Applicator",
+            "Year": 2017,
+            "Location": "Termination",
+            "Classification 1": "Production"
+        },
+        {
+            "Name": "14/16 Amphenol",
+            "Brand": "Applitek",
+            "Model": "AT60-16-0122",
+            "Serial Number": "216-5459",
+            "Priority": "Medium",
+            "Type": "Applicator",
+            "Year": 2017,
+            "Location": "Termination",
+            "Classification 1": "Production"
+        },
+        {
+            "Name": "14/16 Amphenol",
+            "Brand": "KM USA",
+            "Model": "AT60-16-0122",
+            "Serial Number": "1202A-27643",
+            "Priority": "Medium",
+            "Type": "Applicator",
+            "Year": 2017,
+            "Location": "Termination",
+            "Classification 1": "Production"
+        },
+        {
+            "Name": "14/16 Amphenol",
+            "Brand": "KM USA",
+            "Model": "AT60-16-0122",
+            "Serial Number": "1212A-29032",
+            "Priority": "Medium",
+            "Type": "Applicator",
+            "Year": 2017,
+            "Location": "Termination",
+            "Classification 1": "Production"
+        },
+        {
+            "Name": "14/16 Amphenol",
+            "Brand": "KM USA",
+            "Model": "AT60-16-0122",
+            "Serial Number": "1212A-29260",
+            "Priority": "Medium",
+            "Type": "Applicator",
+            "Year": 2017,
+            "Location": "Termination",
+            "Classification 1": "Production"
+        },
+        {
+            "Name": "14/16 Amphenol",
+            "Brand": "KM USA",
+            "Model": "AT60-16-0122",
+            "Serial Number": "1212A-28370",
+            "Priority": "Medium",
+            "Type": "Applicator",
+            "Year": 2017,
+            "Location": "Termination",
+            "Classification 1": "Production"
+        },
+        {
+            "Name": "14/16 Amphenol",
+            "Brand": "KM USA",
+            "Model": "AT60-16-0122",
+            "Serial Number": "1222A-30179",
+            "Priority": "Medium",
+            "Type": "Applicator",
+            "Year": 2017,
+            "Location": "Termination",
+            "Classification 1": "Production"
+        },
+        {
+            "Name": "14/16 MNL1",
+            "Brand": "KM USA",
+            "Model": "350538-1",
+            "Serial Number": "1222A-29585",
+            "Priority": "Medium",
+            "Type": "Applicator",
+            "Year": 2017,
+            "Location": "Termination",
+            "Classification 1": "Production"
+        },
+        {
+            "Name": "14/16 MNL1",
+            "Brand": "KM USA",
+            "Model": "770005-0",
+            "Serial Number": "1212A-29027",
+            "Priority": "Medium",
+            "Type": "Applicator",
+            "Year": 2017,
+            "Location": "Termination",
+            "Classification 1": "Production"
+        },
+        {
+            "Name": "14/16 MNL2",
+            "Brand": "KM USA",
+            "Model": "770005-3",
+            "Serial Number": "1222A-29586",
+            "Priority": "Medium",
+            "Type": "Applicator",
+            "Year": 2017,
+            "Location": "Termination",
+            "Classification 1": "Production"
+        },
+        {
+            "Name": "147/16 Weather Pack",
+            "Brand": "KM USA",
+            "Model": "12124580",
+            "Serial Number": "1172A-22046",
+            "Priority": "Medium",
+            "Type": "Applicator",
+            "Year": 2017,
+            "Location": "Termination",
+            "Classification 1": "Production"
+        },
+        {
+            "Name": "147/16 Weather Pack",
+            "Brand": "KM USA",
+            "Model": "12124580",
+            "Serial Number": "1222A-30571",
+            "Priority": "Medium",
+            "Type": "Applicator",
+            "Year": 2017,
+            "Location": "Termination",
+            "Classification 1": "Production"
+        },
+        {
+            "Name": "14/20 MNL1",
+            "Brand": "AMP",
+            "Model": "687926-2",
+            "Serial Number": "267536",
+            "Priority": "Medium",
+            "Type": "Applicator",
+            "Year": 2017,
+            "Location": "Termination",
+            "Classification 1": "Production"
+        },
+        {
+            "Name": "16/18 GT 150",
+            "Brand": "KM USA",
+            "Model": "12191819",
+            "Serial Number": "1172A-23183",
+            "Priority": "Medium",
+            "Type": "Applicator",
+            "Year": 2017,
+            "Location": "Termination",
+            "Classification 1": "Production"
+        },
+        {
+            "Name": "16/18 GT 150",
+            "Brand": "KM USA",
+            "Model": "15326267",
+            "Serial Number": "1201A-27507",
+            "Priority": "Medium",
+            "Type": "Applicator",
+            "Year": 2017,
+            "Location": "Termination",
+            "Classification 1": "Production"
+        },
+        {
+            "Name": "ADJ. Battery Wire Crimper",
+            "Brand": "CHI Technology",
+            "Model": "HC-20T",
+            "Serial Number": "20T",
+            "Priority": "Medium",
+            "Type": "Applicator",
+            "Year": 2017,
+            "Location": "Trolling",
+            "Classification 1": "Production"
+        },
+        {
+            "Name": "Air Compressor",
+            "Capacity": "125 CFM",
+            "Brand": "Ingersoll-Rand",
+            "Model": "SSR 125H AACC15F",
+            "Serial Number": "A1749 U82",
+            "Priority": "High",
+            "Type": "Air Compressor",
+            "Year": 1985,
+            "Location": "Warehouse",
+            "Classification 1": "Production",
+            "Notes": "Test Notes..."
+        },
+        {
+            "Name": "Alpha 530",
+            "Brand": "Komax",
+            "Model": "Alpha 530",
+            "Serial Number": "530.1089",
+            "Priority": "High",
+            "Type": "Wire Cutter",
+            "Year": 2021,
+            "Location": "Wire Cutting",
+            "Classification 1": "Production"
+        },
+        {
+            "Name": "Alpha 530",
+            "Brand": "Komax",
+            "Model": "Alpha 530",
+            "Serial Number": "530.1282",
+            "Priority": "High",
+            "Type": "Wire Cutter",
+            "Year": 2022,
+            "Location": "Wire Cutting",
+            "Classification 1": "Production"
+        },
+        {
+            "Name": "Alpha 530",
+            "Brand": "Komax",
+            "Model": "Alpha 530",
+            "Serial Number": "530.1455",
+            "Priority": "High",
+            "Type": "Wire Cutter",
+            "Year": 2022,
+            "Location": "Wire Cutting",
+            "Classification 1": "Production"
+        },
+        {
+            "Name": "Auto Wire Bundling Machine",
+            "Brand": "CHI Technology",
+            "Model": "HC-210+Z",
+            "Serial Number": "210+Z",
+            "Priority": "Medium",
+            "Type": "Wire Bundler",
+            "Year": 2022,
+            "Location": "Rolling",
+            "Classification 1": "Production"
+        },
+        {
+            "Name": "Compressed Air Dryer",
+            "Brand": "Ace Purification",
+            "Model": "MAR 250",
+            "Serial Number": "08-05-MA0462",
+            "Priority": "High",
+            "Type": "Compressed Air Drier",
+            "Year": 1985,
+            "Location": "Warehouse",
+            "Classification 1": "Production"
+        },
+        {
+            "Name": "Forklift",
+            "Brand": "Toyota",
+            "Model": "8FGCU25",
+            "Serial Number": "06833",
+            "Priority": "High",
+            "Type": "Vehicle",
+            "Year": 2020,
+            "Location": "QES, LLC"
+        },
+        {
+            "Name": "Heat Shrink Oven",
+            "Brand": "CHI Technology",
+            "Model": "HC-S650S-H1",
+            "Serial Number": "S650S-H1",
+            "Priority": "Medium",
+            "Year": 2017,
+            "Location": "Rolling",
+            "Classification 1": "Production"
+        }
+    ]
+}

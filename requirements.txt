@@ -1,0 +1,6 @@
+sqlalchemy
+fastapi[all]
+bcrypt
+pyqt5
+fastapi-login
+pymysql

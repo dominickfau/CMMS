@@ -1,0 +1,5 @@
+To Do's
+Create error classes.
+Add logging.
+Add db error handling.
+Add child locations to parent.

@@ -1,0 +1,57 @@
+{
+  "name": "Applicator Press",
+  "regimen": "Date",
+  "activities": [
+    {
+      "name": "Check belt and motor pulley for wear.",
+      "priority": "High",
+      "work_type": "Predictive",
+      "duration_minutes": 1,
+      "date_regimen": "month(s)",
+      "date_frequency": 1,
+      "controlled_by_condition": true
+    },
+    {
+      "name": "Check belt tension.",
+      "priority": "High",
+      "work_type": "Predictive",
+      "duration_minutes": 1,
+      "date_regimen": "month(s)",
+      "date_frequency": 1,
+      "controlled_by_condition": true
+    },
+    {
+      "name": "Check flywheel and motor for smooth operation.",
+      "priority": "Medium",
+      "work_type": "Predictive",
+      "duration_minutes": 1,
+      "date_regimen": "week(s)",
+      "date_frequency": 1,
+      "controlled_by_condition": true
+    },
+    {
+      "name": "Check for abnormal noises.",
+      "priority": "High",
+      "duration_minutes": 1,
+      "date_regimen": "week(s)",
+      "date_frequency": 1
+    },
+    {
+      "name": "Check strut height.",
+      "priority": "Low",
+      "work_type": "Predictive",
+      "duration_minutes": 2,
+      "date_regimen": "month(s)",
+      "date_frequency": 1,
+      "controlled_by_condition": true
+    },
+    {
+      "name": "Grease and wipe off excess grease from flywheel.",
+      "priority": "High",
+      "work_type": "Predictive",
+      "duration_minutes": 1,
+      "date_regimen": "week(s)",
+      "date_frequency": 1
+    }
+  ]
+}

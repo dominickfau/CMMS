@@ -1,0 +1,255 @@
+{
+    "name": "Alpha 530",
+    "regimen": "Date",
+    "children": [{
+            "name": "Cutting, Stripping Unit",
+            "regimen": "Mixed",
+            "activities": [{
+                    "name": "Check and clean stripping unit.",
+                    "priority": "High",
+                    "work_type": "Predictive",
+                    "duration_minutes": 2,
+                    "meter_unit_name": "Pieces",
+                    "meter_frequency": 75000,
+                    "controlled_by_condition": true
+                },
+                {
+                    "name": "Clean and lubricate cutting, stripping unit.",
+                    "priority": "High",
+                    "work_type": "Predictive",
+                    "duration_minutes": 10,
+                    "date_regimen": "month(s)",
+                    "date_frequency": 1,
+                    "meter_unit_name": "Pieces",
+                    "meter_frequency": 1000000,
+                    "controlled_by_condition": true
+                }
+            ]
+        },
+        {
+            "name": "Modules",
+            "regimen": "Mixed",
+            "children": [{
+                    "name": "Crimp Modules",
+                    "regimen": "Reading",
+                    "activities": [{
+                        "name": "Check, clean, and lubricate crimp modules.",
+                        "priority": "High",
+                        "work_type": "Predictive",
+                        "duration_minutes": 10,
+                        "meter_unit_name": "Pieces",
+                        "meter_frequency": 75000,
+                        "controlled_by_condition": true
+                    }]
+                },
+                {
+                    "name": "Seal Modules",
+                    "regimen": "Date",
+                    "activities": [{
+                        "name": "Check and clean seal modules.",
+                        "priority": "High",
+                        "work_type": "Predictive",
+                        "duration_minutes": 20,
+                        "date_regimen": "month(s)",
+                        "date_frequency": 1
+                    }]
+                }
+            ]
+        },
+        {
+            "name": "Output Tray",
+            "regimen": "Mixed",
+            "activities": [{
+                    "name": "Check and clean conveyor and tipping tray.",
+                    "priority": "Medium",
+                    "duration_minutes": 5,
+                    "date_regimen": "week(s)",
+                    "date_frequency": 1
+                },
+                {
+                    "name": "Check conveyor belt for smooth operation.",
+                    "priority": "Medium",
+                    "work_type": "Predictive",
+                    "duration_minutes": 10,
+                    "date_regimen": "month(s)",
+                    "date_frequency": 1,
+                    "meter_unit_name": "Pieces",
+                    "meter_frequency": 250000,
+                    "controlled_by_condition": true
+                }
+            ]
+        },
+        {
+            "name": "Swivels",
+            "regimen": "Mixed",
+            "children": [{
+                    "name": "Swivel Side 1",
+                    "regimen": "Date",
+                    "activities": [{
+                            "name": "Check and clean flexable guide tube.",
+                            "priority": "Low",
+                            "work_type": "Preventive",
+                            "duration_minutes": 2,
+                            "date_regimen": "week(s)",
+                            "date_frequency": 1
+                        },
+                        {
+                            "name": "Check and clean swivel unit side 1.",
+                            "priority": "Medium",
+                            "duration_minutes": 5,
+                            "date_regimen": "week(s)",
+                            "date_frequency": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "Swivel Side 2",
+                    "regimen": "Date",
+                    "activities": [{
+                        "name": "Check and clean swivel unit side 2.",
+                        "priority": "Medium",
+                        "duration_minutes": 5,
+                        "date_regimen": "week(s)",
+                        "date_frequency": 1
+                    }]
+                }
+            ],
+            "activities": [{
+                    "name": "Check and lubricate swivel units.",
+                    "priority": "High",
+                    "duration_minutes": 10,
+                    "meter_unit_name": "Pieces",
+                    "meter_frequency": 5000000
+                },
+                {
+                    "name": "Check gripper vertical movement.",
+                    "priority": "High",
+                    "work_type": "Predictive",
+                    "duration_minutes": 2,
+                    "meter_unit_name": "Pieces",
+                    "meter_frequency": 75000,
+                    "controlled_by_condition": true
+                },
+                {
+                    "name": "Check grippers for smooth movement.",
+                    "priority": "Medium",
+                    "work_type": "Predictive",
+                    "duration_minutes": 2,
+                    "meter_unit_name": "Pieces",
+                    "meter_frequency": 75000,
+                    "controlled_by_condition": true
+                },
+                {
+                    "name": "Check swivels for smooth movement over operating range.",
+                    "priority": "High",
+                    "work_type": "Predictive",
+                    "duration_minutes": 5,
+                    "date_regimen": "month(s)",
+                    "date_frequency": 2,
+                    "meter_unit_name": "Pieces",
+                    "meter_frequency": 500000,
+                    "controlled_by_condition": true
+                },
+                {
+                    "name": "Check toothed belts for wear",
+                    "priority": "High",
+                    "work_type": "Predictive",
+                    "duration_minutes": 5,
+                    "date_regimen": "month(s)",
+                    "date_frequency": 6,
+                    "controlled_by_condition": true
+                },
+                {
+                    "name": "Check, clean, and grease gripper seals.",
+                    "priority": "High",
+                    "work_type": "Predictive",
+                    "duration_minutes": 30,
+                    "meter_unit_name": "Pieces",
+                    "meter_frequency": 1000000,
+                    "controlled_by_condition": true
+                },
+                {
+                    "name": "Lubricate linear guides.",
+                    "priority": "High",
+                    "duration_minutes": 10,
+                    "meter_unit_name": "Pieces",
+                    "meter_frequency": 500000
+                },
+                {
+                    "name": "Lubricate pinions",
+                    "priority": "High",
+                    "duration_minutes": 5,
+                    "meter_unit_name": "Pieces",
+                    "meter_frequency": 500000
+                }
+            ]
+        },
+        {
+            "name": "Wire Drive",
+            "regimen": "Mixed",
+            "activities": [{
+                    "name": "Check wire drive blue belts for wear.",
+                    "priority": "High",
+                    "work_type": "Predictive",
+                    "duration_minutes": 2,
+                    "date_regimen": "week(s)",
+                    "date_frequency": 1,
+                    "meter_unit_name": "Pieces",
+                    "meter_frequency": 75000,
+                    "controlled_by_condition": true
+                },
+                {
+                    "name": "Clean wire drive.",
+                    "priority": "High",
+                    "duration_minutes": 2,
+                    "date_regimen": "week(s)",
+                    "date_frequency": 1
+                }
+            ]
+        }
+    ],
+    "activities": [{
+            "name": "Check and clean straightener unit.",
+            "priority": "Medium",
+            "duration_minutes": 5,
+            "date_regimen": "week(s)",
+            "date_frequency": 1
+        },
+        {
+            "name": "Check entire machine for damage.",
+            "priority": "Medium",
+            "work_type": "Preventive",
+            "duration_minutes": 5,
+            "date_regimen": "week(s)",
+            "date_frequency": 1
+        },
+        {
+            "name": "Check guide parts and bearings.",
+            "priority": "High",
+            "duration_minutes": 15,
+            "date_regimen": "month(s)",
+            "date_frequency": 6
+        },
+        {
+            "name": "Clean and lubricate safety cover guide.",
+            "priority": "High",
+            "duration_minutes": 10,
+            "date_regimen": "month(s)",
+            "date_frequency": 1
+        },
+        {
+            "name": "Clean rear air filter mats.",
+            "priority": "High",
+            "duration_minutes": 5,
+            "date_regimen": "week(s)",
+            "date_frequency": 5
+        },
+        {
+            "name": "Empty air maintenance unit water seperator.",
+            "priority": "Low",
+            "duration_minutes": 2,
+            "date_regimen": "week(s)",
+            "date_frequency": 1
+        }
+    ]
+}
